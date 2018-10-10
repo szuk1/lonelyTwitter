@@ -90,7 +90,7 @@ public class LonelyTwitterActivity extends Activity {
 
 		ElasticsearchTweetController.GetTweetsTask getTweetsTask =
 				new ElasticsearchTweetController.GetTweetsTask();
-		
+
 		getTweetsTask.execute("");
 
 		try {
